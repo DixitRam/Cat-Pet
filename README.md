@@ -1,10 +1,10 @@
-# Cat Pet Extension
-##### Vibe Coded (Google Antigravity)
+# Cat Pet Extension 
 
-![Intro](Logo.png)
+<img src="Logo.png" alt="drawing" width="200px"/>
 
 ## Description
-A cute pixel-art cat that lives in your browser! It follows your cursor, runs when you move, and breathes calmly when you stop. It's the perfect browsing companion.
+A cute pixel-art cat that lives in your browser! It follows your cursor, runs when you move, and breathes calmly when you stop. It's the perfect browsing companion —*Vibe Coded (Antigravity)*
+
 
 ## Features
 - **Follows Cursor**: Runs after your mouse with a smooth animation.
