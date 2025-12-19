@@ -2,8 +2,12 @@
 
 <img src="Logo.png" alt="drawing" width="200px"/>
 
+
 ## Description
 A cute pixel-art cat that lives in your browser! It follows your cursor, runs when you move, and breathes calmly when you stop. It's the perfect browsing companion —*Vibe Coded (Antigravity)*
+
+## Demo
+![Demo](demo.gif)
 
 
 ## Features
