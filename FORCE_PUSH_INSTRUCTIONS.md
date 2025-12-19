@@ -30,9 +30,11 @@ Due to environment restrictions, automated force push is not available. The comm
    git commit -m "Initial commit"
    ```
 
-5. **Delete the old branch**:
+5. **Delete the old branch** (try regular delete first, use -D if needed):
    ```bash
-   git branch -D copilot/remove-commit-history
+   git branch -d copilot/remove-commit-history
+   # If that fails due to unmerged changes, use:
+   # git branch -D copilot/remove-commit-history
    ```
 
 6. **Rename the new branch**:
@@ -40,8 +42,9 @@ Due to environment restrictions, automated force push is not available. The comm
    git branch -m copilot/remove-commit-history
    ```
 
-7. **Force push to remote**:
+7. **Force push to remote** (check branch protection settings first):
    ```bash
+   # Note: You may need to temporarily disable branch protection rules in GitHub Settings
    git push -f origin copilot/remove-commit-history
    ```
 
@@ -77,7 +80,8 @@ git push -f origin main
 1. **Backup First**: Make sure you have a backup of your repository before proceeding
 2. **Permanent Action**: Force pushing will permanently delete the commit history from the remote
 3. **Team Coordination**: If others are working on this repository, coordinate with them first
-4. **Protected Branches**: You may need to temporarily disable branch protection rules
+4. **Protected Branches**: You may need to temporarily disable branch protection rules in GitHub repository settings before force pushing
+5. **Check Uncommitted Changes**: Ensure you have no uncommitted changes before deleting branches
 
 ## What This Accomplishes
 
