@@ -1,4 +1,4 @@
-# Cat Pet Extension 
+# Cursor Pet Extension 
 
 <img src="Logo.png" alt="drawing" width="200px"/>
 
@@ -24,11 +24,11 @@ Since this extension is in development, you need to load it manually:
 3. Toggle the **Developer mode** switch in the top right corner.
 4. Click the **Load unpacked** button that appears.
 5. Select the folder containing this `README.md` file (the root folder).
-6. The "Cat Pet" extension should now appear in your list!
+6. The "Cursor Pet" extension should now appear in your list!
 
 ## Usage
 - The cat starts automatically on any new page you visit.
 - If it doesn't appear immediately, try refreshing the page.
-- You can click the **Cat Pet** icon in your toolbar to see it's active.
+- You can click the **Cursor Pet** icon in your toolbar to see it's active.
 
 Enjoy your new pet! 🐱

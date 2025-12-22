@@ -159,7 +159,7 @@
 
             let spriteUrl;
             try {
-                spriteUrl = chrome.runtime.getURL(`NewFrames/download.png`);
+                spriteUrl = chrome.runtime.getURL(`Frames/download.png`);
             } catch (e) {
                 console.log("Cat extension: Context invalidated, stopping.");
                 window.catExtensionActive = false;
