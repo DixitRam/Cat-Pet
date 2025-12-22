@@ -4,7 +4,7 @@
 
 
 ## Description
-A cute pixel-art cat that lives in your browser! It follows your cursor, runs when you move, and breathes calmly when you stop. It's the perfect browsing companion —*Vibe Coded (Antigravity)*
+A cute pixel-art pet that lives in your browser! It follows your cursor, runs when you move, and breathes calmly when you stop. It's the perfect browsing companion —*Vibe Coded (Antigravity)*
 
 ## Demo
 ![Demo](demo.gif)
@@ -14,6 +14,7 @@ A cute pixel-art cat that lives in your browser! It follows your cursor, runs wh
 - **Follows Cursor**: Runs after your mouse with a smooth animation.
 - **Smart Idle**: Sits down and breathes when you stop moving.
 - **Pixel Perfect**: Retro sprite art style.
+- **Customizable**: Create and add your own custom pets.
 - **Universal**: Works on all websites (`<all_urls>`).
 
 ## Installation (Developer Mode)
@@ -27,8 +28,11 @@ Since this extension is in development, you need to load it manually:
 6. The "Cursor Pet" extension should now appear in your list!
 
 ## Usage
-- The cat starts automatically on any new page you visit.
+- The pet starts automatically on any new page you visit.
 - If it doesn't appear immediately, try refreshing the page.
 - You can click the **Cursor Pet** icon in your toolbar to see it's active.
+
+## Customization
+Want to add your own custom pet? Check out the [Custom Frame Instructions](Custom%20Frame/README.md).
 
 Enjoy your new pet! 🐱
